@@ -10,9 +10,7 @@
 ### 6.  Lists
 ### 7.  Tables   
 ### 8.  Forms    
-### 9.  Semantic HTML
-### 10. HTML5 Features
-### 11. References
+### 9. References
 
  ## 1. Introduction to HTML
        
@@ -378,7 +376,7 @@
 
             </html>
  ```    
- ##  5.Images and Multimedia
+ ##  5.Images
  ###   HTML Image 
       The HTML <img> tag is used to embed an image in a web page.
 
@@ -432,88 +430,7 @@
 ```jsx
          <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 ```
-###    What is Multimedia?
-       Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, 
-       music, sound, videos, records, films, animations, and more.
 
-       **Web pages often contain multimedia elements of different types and formats.**
-
-###    Browser Support
-       The first web browsers had support for text only, limited to a single font in a single color.
-       Later came browsers with support for colors, fonts, images, and multimedia!
-
-###    Multimedia Formats
-       -Multimedia elements (like audio or video) are stored in media files.
-       -The most common way to discover the type of a file, is to look at the file extension.
-       -Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.
-
-###    Common Video Formats
-    	 -There are many video formats out there.
-       -The MP4, WebM, and Ogg formats are supported by HTML.
- <img src= "pic_video.jpg" alt="formats" width="" height="" >
- 
- -The MP4 format is recommended by YouTube.
-
- ###   The HTML <video> Element
-       To show a video in HTML, use the <video> element:
-
-**Example**
- ```jsx        
-               <video width="320" height="240" controls>
-               <source src="movie.mp4" type="video/mp4">
-              <source src="movie.ogg" type="video/ogg">
-             Your browser does not support the video tag.
-               </video>   
-```   
-###   How it Works
-       The controls attribute adds video controls, like play, pause, and volume.
-       It is a good idea to always include width and height attributes. If height and width are not set, 
-       the page might flicker while the video loads.
-       The <source> element allows you to specify alternative video files which the browser may choose from. 
-       The browser will use the first recognized format.
-       The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> 
-       element.
-
-###    HTML <video> Autoplay
-       To start a video automatically, use the autoplay attribute:
-
-**Example**
-```jsx
-          <video width="320" height="240" autoplay>
-          <source src="movie.mp4" type="video/mp4">
-          <source src="movie.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-          </video>
-```
-###   The HTML <audio> Element
-      To play an audio file in HTML, use the <audio> element:
-
-**Example**
-```jsx      
-          <audio controls>
-          <source src="horse.ogg" type="audio/ogg">
-          <source src="horse.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-```
-###    HTML Audio - How It Works
-       The controls attribute adds audio controls, like play, pause, and volume.
-       The <source> element allows you to specify alternative audio files which the browser may choose from. 
-       The browser will use the first recognized format.
-       The text between the <audio> and </audio> tags will only be displayed in browsers that do not support
-       the <audio> element.
-
-###    HTML <audio> Autoplay
-       To start an audio file automatically, use the autoplay attribute:
-        
-**Example**
- ```jsx       
-             <audio controls autoplay>
-             <source src="horse.ogg" type="audio/ogg">
-             <source src="horse.mp3" type="audio/mpeg">
-             Your browser does not support the audio element.
-             </audio>
-```
 ##  6.Lists
        HTML lists allow web developers to group a set of related items in lists.
 
@@ -656,101 +573,6 @@ A form with input fields for text:
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
 </form>
-```
-## 9.Semantic HTML
-###  What are Semantic Elements?
-     A semantic element clearly describes its meaning to both the browser and the developer.
-     Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-     Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
-
-###  Semantic Elements in HTML
-     Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate
-     navigation, header, and footer.
-     In HTML there are some semantic elements that can be used to define different parts of a web page:  
-```jsx
-.<article>
-.<aside>
-.<details>
-.<figcaption>
-.<figure>
-.<footer>
-.<header>
-.<main>
-.<mark>
-.<nav>
-.<section>
-.<summary>
-.<time>
-```
-<img src= "img_sem_elements.gif" alt="formats" width="" height="" >  
-
-###  HTML <section> Element
-     The <section> element defines a section in a document.
-     According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."
-
-**Examples of where a <section> element can be used:**
-```jsx
-.Chapters
-.Introduction
-.News items
-.Contact information
-```
-     A web page could normally be split into sections for introduction, content, and contact information.
-
-###  Example
-```jsx
- Two sections in a document:
-<section>
-<h1>WWF</h1>
-<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
-</section>
-
-<section>
-<h1>WWF's Panda symbol</h1>
-<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
-</section>
-```
-## 10.HTML5 Features
-   Now let’s have a look at all the new features that were added in HTML5 that make it better than HTML :
-
-###  .Intro of audio and video: 
-     Audio and Video tags are the two major addition to HTML5. It allows developers to embed a video or audio on their website. 
-     HTML5 video can use CSS and CSS3 to style the video tag. You can change the border, opacity, reflections, gradients, 
-     transitions, transformations, and even animations. HTML5 makes adding video super-fast and without having to build a video 
-     player. This saves time for the developer and offers the client a superior and more affordable solution.
-
-**Example:**
-```jsx
-<!DOCTYPE html> 
-<html> 
-<body> 
-<h2>Example of video and audio tag</h2> 
-    
-  <video  width = "300" height = "200" controls autoplay> 
-       <source src = "/html5/foo.ogg" type ="video/ogg" /> 
-       <source src = "/html5/foo.mp4" type = "video/mp4" /> 
-        Your browser does not support the video element. 
-   </video> 
-    
-   <audio controls autoplay> 
-       <source src = "/html5/audio.ogg" type = "audio/ogg" /> 
-       <source src = "/html5/audio.wav" type = "audio/wav" /> 
-        Your browser does not support the audio element. 
-   </audio> 
-</body> 
-</html> 
-```
-###  Vector Graphics:
-     This is a new addition to the revised version which has hugely impacted the use of Adobe Flash in websites. It can be used 
-     to draw graphics with various shapes and colors via scripting usually JS. Vector graphics are scalable, easy to create and 
-     edit. It also supports interactivity and animation. Having a smaller file size makes transferring and loading graphics 
-     much faster on the web. That’s the reason why many people prefer to use vector graphics.
-
-**Example:**
-```jsx
-<svg id = "svgelem" height = "200" xmlns = "http://www.abc.org/2000/svg"> 
-      <circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" /> 
- </svg> 
 ```
 ## 11.References
  ### https://www.w3schools.com/html/default.asp
