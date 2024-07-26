@@ -5,7 +5,7 @@
 ### 1.  Introduction to HTML
 ### 2.  HTML Basics
 ### 3.  Text Formatting
-### 4.  Links and Anchors   
+### 4.  Anchors   
 ### 5.  Images  
 ### 6.  Lists
 ### 7.  Tables   
