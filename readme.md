@@ -151,11 +151,11 @@
 ```
 ###  The title Attribute
       The title attribute defines some extra information about an element.
-      The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+      The value of the title attribute will be displayed as a Mohit when you mouse over the element:
 
 **Example**
 ```jsx
-              <p title="I'm a tooltip">This is a paragraph.</p>
+              <p title="Mohit">This is a paragraph.</p>
 ```
 ###   Chapter Summary
       All HTML elements can have attributes
