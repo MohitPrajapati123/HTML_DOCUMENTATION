@@ -303,65 +303,16 @@
                     <p>This is a paragraph.</p>
                     <p>This is another paragraph.</p>
  ```
- ##  4. Links and Anchors 
-
- ###  What is the HTML<link> tag?
-
-      The HTML <link> tag establishes a link between the current document and an external resource.This tag is usually used to 
-      link to an external stylesheet, add a favicon to a website, or preload resources to improve page load performance. Here's 
-      its basic structure: 
-
-**Example**
- ```jsx
-          <link rel="relationship_value" 
-          type="MIME_type" 
-          href="resource_location" 
-          media="media_type" 
-          sizes="widthxheight" 
-          hreflang="language_code" 
-          as="resource_type">     
-```
-###   Hypertext 
-        Hypertext can be defined as the text shown on your web browser's screen, which contains hyperlinked data 
-        (data here means from which document it will go to which document) and hence leads readers to different 
-        web pages by clicking on them. In this chapter, you will learn how to create your hyperlinks and use them 
-        to build websites and web pages.
+ ##  4. Anchors 
+ **Example**
+ 
 
 ###   What is Anchor Tag?
       The Anchor tag in HTML can be defined as a means to create a hyperlink that can link your current page on 
-      which the text is being converted to hypertext via <a> (anchor tag) to another page. This anchoring from 
-      one page to another is made possible by the attribute "href", which can be abbreviated (hypertext reference).
-
-###   Href attribute
-       The attribute 'href' of the Anchor tag is implemented for defining the address or path to which this hypertext will
-        get linked. In other words, it can be said that it directs you out of your page to that destination page, whose link
-        you have mentioned within the double quotes of the href attribute as value. The syntax for an anchor tag with 
-        href attribute looks something like this:
-
-**Example**
- ```jsx     
+      which the text is being converted to hypertext via <a> (anchor tag) to another page.
+      ```jsx     
       <a href="URL">Text Here</a>
  ```   
- ###  Appearance of HTML <a> tag
-
-      Since Anchor tags are used for giving hyperlinks, you might have noticed that they change color based on certain 
-      situations, such as unvisited, clicked, visited, etc. Let's see their color code concerning their activity:
-
-      -An unvisited link gets displayed with properties like underlined, and the color is blue.
-
-      -A link that is visited gets displayed as underlined with color as purple.
-
-      -A link that is an active link gets displayed as underlined with red color.
-
-       Still, many web developers will deposit their link colors in their web pages to match their site's color scheme.
-       Here's the format:
-
-**Example**
- ```jsx
-              <body bgcolor="red" text="yellow" link="blue" alink="#FFFF00" vlink="#FF00FF">
- ```
-        You can also provide hex code for colors (as you can see from the above example), or else you can use specific 
-        words for each color, which is acceptable by the browser.
 
  ###   Program for Anchors tag       
         
