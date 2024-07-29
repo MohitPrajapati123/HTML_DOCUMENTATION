@@ -124,20 +124,6 @@
 ```jsx
                    <p style="color:red;">This is a red paragraph.</p>
 ```
-###  The lang Attribute
-      You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. 
-      This is meant to assist search engines and browsers.
-      **The following example specifies English as the language:**
-```jsx
-           <!DOCTYPE html>
-            <html lang="en">
-             <body>
-             ...
-            </body>
-            </html>
-```
-      Country codes can also be added to the language code in the lang attribute. So, the first two characters define the 
-      language of the HTML page, and the last two characters define the country.
 
 **The following example specifies English as the language and United States as the country:**
 ```jsx
@@ -195,10 +181,7 @@
      -<em> - Emphasized text
      -<mark> - Marked text
      -<small> - Smaller text
-     -<del> - Deleted text
-     -<ins> - Inserted text
-     -<sub> - Subscript text
-     -<sup> - Superscript text
+    
 ###  HTML <b> and <strong> Elements
      
      The HTML <b> element defines bold text, without any extra importance.
@@ -238,46 +221,6 @@
 **Example**
 ```jsx
                <small>This is some smaller text.</small>
-```
-###   HTML <mark> Element
-         The HTML <mark> element defines text that should be marked or highlighted:
-         
-**Example**
-```jsx
-      <p>Do not forget to buy <mark>milk</mark> today.</p>
-```
-###  HTML <del> Element
-          The HTML <del> element defines text that has been deleted from a document. 
-          Browsers will usually strike a line through deleted text:
-
-**Example**
-```jsx
-                  <p>My favorite color is <del>blue</del> red.</p>
-```
-###  HTML <ins> Element
-          The HTML <ins> element defines a text that has been inserted into a document.
-           Browsers will usually underline inserted text:
-           
-**Example**
-```jsx
-                  <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-```
-###  HTML <sub> Element
-           The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line,
-            and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
-           
- **Example**
-```jsx
-                  <p>This is <sub>subscripted</sub> text.</p>\
-```
-###  HTML <sup> Element
-            The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, 
-            and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
-           
- **Example**
-```jsx
-                   <p>This is <sup>superscripted</sup> text.</p>
-```
 ##   HTML Headings
        HTML headings are defined with the <h1> to <h6> tags.
 
