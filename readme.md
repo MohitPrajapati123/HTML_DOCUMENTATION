@@ -8,9 +8,8 @@
 ### 4.  Anchors   
 ### 5.  Images  
 ### 6.  Lists
-### 7.  Tables   
-### 8.  Forms    
-### 9. References
+### 7.  Tables      
+### 8. References
 
  ## 1. Introduction to HTML
        
@@ -35,9 +34,7 @@
        
        - All HTML documents must start with a document type declaration: <!DOCTYPE html>.
 
-       - The HTML document itself begins with <html> and ends with </html>.
-
-       - The visible part of the HTML document is between <body> and </body>. 
+       - The HTML document itself begins with <html> and ends with </html>. 
        
 **Example**
   ```jsx  
@@ -181,12 +178,7 @@
  ```jsx
               <b>This text is bold</b>
 ```
-     The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
-     
-**Example**
-```jsx
-               <strong>This text is important!</strong> 
-```    
+    
 ###  HTML <i> and <em> Elements
       The HTML <i> element defines a part of text in an alternate voice or mood. 
       The content inside is typically displayed in italic.
@@ -433,32 +425,7 @@
   </tr>
 </table>
 ```
-##  8.Forms 
-    An HTML form is used to collect user input. The user input is most often sent to a server for processing.
-<img src= "Screenshot 2024-06-17 150707.png" alt="formats" width="" height="" >  
 
-### The <form> Element
-    The HTML <form> element is used to create an HTML form for user input:
-```jsx
-<form>
-.
-form elements
-.
-</form>
-```
-###  Text Fields
-     The <input type="text"> defines a single-line input field for text input.
-
-**Example**
-A form with input fields for text:
-```jsx
-<form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
-</form>
-```
 ## 11.References
  ### https://www.w3schools.com/html/default.asp
  ### https://www.geeksforgeeks.org/html-introduction/
