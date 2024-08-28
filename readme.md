@@ -65,8 +65,7 @@
        -Attributes provide additional information about 
         elements
        -Attributes are always specified in the start tag
-       -Attributes usually come in name/value pairs like: name="value"
-
+       
 ###  The href Attribute
       
       The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:  
@@ -155,8 +154,6 @@
      -<b> - Bold text
      -<strong> - Important text
      -<i> - Italic text
-     -<em> - Emphasized text
-     -<mark> - Marked text
      -<small> - Smaller text
     
 ###  HTML <b> and <strong> Elements
@@ -262,11 +259,6 @@
 ```
 ###  The src Attribute
       The required src attribute specifies the path (URL) to the image.
-
-      -Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it 
-       into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, 
-       otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser 
-       cannot find the image.
 
 **Example**
 ```jsx
