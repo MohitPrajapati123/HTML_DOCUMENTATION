@@ -18,18 +18,7 @@
        - HTML is the standard markup language for creating Web pages.
        - HTML describes the structure of a Web page.
 
- ###   History of HTML
-       HTML was created by Sir Tim Berners-Lee in late 1991 but was not officially released.
-       It was published in 1995 as HTML 2.0. HTML 4.01 was published in late 1999 and was a major version of HTML.
- ###   Year	        Version
-       1989	        Tim Berners-Lee invented www
-       1991	        Tim Berners-Lee invented HTML
-       1993	        Dave Raggett drafted HTML+
-       1995	        HTML Working Group defined HTML 2.0
-       1997	        W3C Recommendation: HTML 3.2
-       1999	        W3C Recommendation: HTML 4.01
-       2000	        W3C Recommendation: XHTML 1.0
-       2008	        WHATWG HTML5 First Public Draft
+
 ## 2.  HTML Basics
        
        - All HTML documents must start with a document type declaration: <!DOCTYPE html>.
